@@ -1,0 +1,106 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2019-11-08T14:42:38.556422"
+    },
+    {
+        "view_id": "AssistantView",
+        "view_class": "AssistantView",
+        "sequence": "ShowView",
+        "time": "2019-11-08T14:42:38.572039"
+    },
+    {
+        "editor_id": 70768624,
+        "editor_class": "Editor",
+        "text_widget_id": 70769200,
+        "text_widget_class": "CodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2019-11-08T14:42:38.603288"
+    },
+    {
+        "editor_id": 70768624,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\Qarashov-PC\\Desktop\\Python basics\\exam.py",
+        "sequence": "Open",
+        "text_widget_id": 70769200,
+        "text_widget_class": "CodeViewText",
+        "time": "2019-11-08T14:42:38.603288"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 70769200,
+        "text_widget_class": "CodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2019-11-08T14:42:38.603288"
+    },
+    {
+        "index": "1.0",
+        "text": "months={\n        \"January\":1,\n        \"February\":2,\n        \"March\":3,\n        \"April\":4,\n        \"May\":5,\n        \"June\":6,\n        \"July\":7,\n        \"August\":8,\n        \"September\":9,\n        \"October\":10,\n        \"November\":11,\n        \"December\":12\n        }\n\nnumber=int(input(\"Please input month number between 1-12:\"))\n\nif number not in range(1,len(list(months.keys()))+1):\n    print(\"Must be between 1 and 12\")\nelse:\n    month=list(months.keys())[number-1]\n    print(\"Month is {}\".format(month))\n           ",
+        "tags": "None",
+        "text_widget_id": 70769200,
+        "text_widget_class": "CodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2019-11-08T14:42:38.618956"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2019-11-08T14:42:38.618956"
+    },
+    {
+        "view_id": "AssistantView",
+        "view_class": "AssistantView",
+        "sequence": "ShowView",
+        "time": "2019-11-08T14:42:38.618956"
+    },
+    {
+        "widget_id": 45255120,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2019-11-08T14:42:38.790803"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.7.4 (bundled)",
+        "tags": "('welcome',)",
+        "text_widget_id": 70729840,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2019-11-08T14:42:39.347121"
+    },
+    {
+        "index": "1.22",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 70729840,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2019-11-08T14:42:39.347121"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 70729840,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2019-11-08T14:42:39.347121"
+    }
+]
